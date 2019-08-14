@@ -53,7 +53,7 @@ spec:
         app: details
         version: v1
     spec:
-      serviceAccountName: bookinfo-details
+     
       containers:
       - name: details
         image: cursocgn.azurecr.io/details-cursocgn:v1
@@ -102,7 +102,7 @@ spec:
         app: ratings
         version: v1
     spec:
-      serviceAccountName: bookinfo-ratings
+     
       containers:
       - name: ratings
         image: cursocgn.azurecr.io/ratings-cursocgn:v1
@@ -151,7 +151,7 @@ spec:
         app: reviews
         version: v1
     spec:
-      serviceAccountName: bookinfo-reviews
+    
       containers:
       - name: reviews
         image: cursocgn.azurecr.io/reviews-cursocgn:v1
@@ -201,7 +201,7 @@ spec:
         app: productpage
         version: v1
     spec:
-      serviceAccountName: bookinfo-productpage
+    
       containers:
       - name: productpage
         image: cursocgn.azurecr.io/productpage-cursocgn:v1
